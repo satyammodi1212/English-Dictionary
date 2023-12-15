@@ -6,17 +6,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: salmon;
+    background-color: #2f363e;
     font-family: 'Courier New', Courier, monospace;
+    color: #fff;
 }
 .container{
-    background-color: rgba(255,255,255,.3);
+    background-color: #2f363e;
     padding: 28px;
     border-radius: 7px;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
-    width: 90%;
+/*     box-shadow: 0 10px 10px rgba(0,0,0,0.3); */
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.75),
+    10px 10px 70px rgba(0, 0, 0, 0.25), inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75); 
+    width: 500px;
+    height: 450px;
     margin: 10px;
-    min-width: 450px;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -28,8 +33,9 @@ body{
 .input{
     height: 53px;
     width: 300px;
-    background-color: rgba(255,255,255,.6);
-    border-color: rgba(255,255,255,.4);
+    background-color: #2f363e;
+    border-color: #fff;
+    outline: none;
     font-size: 16px;
     padding: 0 42px;
     border-radius: 5px;
